@@ -9,8 +9,8 @@ function doMaths(formula) {
       console.log(item, "is a letter");
       letter.push(item);
     } else if (/^\d+$/.test(item)) {
-      c;
-      onsole.log(item, "is a number");
+      
+      console.log(item, "is a number");
       numTotal.push(item);
     } else {
       console.log(item, "is an operator");
